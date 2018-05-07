@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+<head>  
+  <meta charset="utf-8"/> 
+  <title>Turtle</title> 
+  <meta name="author" content="Maksym Telepchuk"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="style/styleCanvas.css"/>
+	<script src="script/turtle.js"></script>
+	<script src="script/handleTurtle.js"></script>
+</head> 
+<body>
+	<canvas id="myCanvas" height="300" width="800">
+	</canvas>
+	<div>
+		<div class="com">
+			<input type="number" id="len"/><br/>
+			<input type="button" value="Line" onclick="lineInput()"/><br/>
+			<input type="button" value="Move" onclick="moveInput()"/><br/>
+		</div>
+		
+		<div class="com">
+			<input type="number" id="angle"/>:Angle<br/>
+			<input type="button" value="Rotate" onclick="changeAngleInput()"/><br/><br/>
+		</div>
+		
+		<div class="com">
+			<input type="number" id="lineWidth"/>:Line width<br/>
+			<input type="button" value="Change" onclick="changeLineWidthIn()"/><br/><br/>
+		</div>
+		
+		<div class="com">
+			<input type="button" id="colorButton" value="Change Color" onclick="changeColor()"/><br/>
+		</div>
+	</div>
+</body> 
+</html> 
